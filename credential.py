@@ -45,5 +45,10 @@ class Credentials:
         """
         return cls.credential_list    
 
-   
+    @classmethod
+    def search_credential(cls):
+        """
+        method that search credentiak list
+        """
+        return cls.credential_list    
 
