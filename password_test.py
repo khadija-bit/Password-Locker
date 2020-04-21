@@ -124,6 +124,11 @@ class TestCredential(unittest.TestCase):
 
         self.assertEqual(Credentials.display_credential(),Credentials.credential_list)
 
+    def test_search_credential(self):
+        """
+        method that search a list of all credential 
+        """
+        self.assertEqual(Credentials.search_credential(),Credentials.credential_list)    
 
 
     
