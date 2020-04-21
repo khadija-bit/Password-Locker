@@ -103,11 +103,13 @@ def main():
                             print('\n')  
           elif short_code == "sc":
                   if search_credential():
-                         print("searching for credential")
+                         print("Here are the list of searching for credential")
                          print('\n')
 
                          for credential in search_credential():
-                                 print(f"credential {account} {user_name}  ...{password} ")
+                                 print(f"credential--- {account}") 
+                                 print(f"credential--- {user_name}")
+                                 print(f"credential--- {password}")
                                  print('\n')                 
       
 
