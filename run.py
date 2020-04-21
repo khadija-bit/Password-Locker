@@ -48,11 +48,11 @@ def display_credential():
     """
     return Credentials.display_credential() 
 
-# def search_credential():
-#     """
-#     Function that return all saved credential
-#     """
-#     return Credentials.search_credential() 
+def search_credential():
+    """
+    Function that return all saved credential
+    """
+    return Credentials.search_credential() 
 
 
 
