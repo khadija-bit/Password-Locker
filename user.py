@@ -1,13 +1,13 @@
 class User:
-        '''
+        """
         Class to generates new instances of users.
-        '''
+        """
         
         user_list = [] #Empty user list
         def save_user(self):
-          '''
+          """
           save user method saves user objects into user_list
-          '''
+          """
           User.user_list.append(self)
         
 
